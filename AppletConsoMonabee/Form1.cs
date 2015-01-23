@@ -13,7 +13,8 @@ using System.Net.NetworkInformation;
 using System.Web;
 using System.Threading;
 using System.IO;
-
+using System.Net.Sockets;
+using System.Runtime.InteropServices;
 
 namespace AppletConsoMonabee
 {
@@ -22,19 +23,19 @@ namespace AppletConsoMonabee
         public Form1()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Minimized;
+            //this.WindowState = FormWindowState.Minimized;
         }
 
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Minimized){
-                notifyIcon1.BalloonTipText = "Minimizé";
-                notifyIcon1.ShowBalloonTip(1000);
+                notifyIcon1.BalloonTipText = "Minimisé";
+                notifyIcon1.ShowBalloonTip(100);
             }
             else
             {
                 notifyIcon1.BalloonTipText = "normal";
-                notifyIcon1.ShowBalloonTip(1000);
+                notifyIcon1.ShowBalloonTip(100);
             }
         }
 
@@ -50,13 +51,36 @@ namespace AppletConsoMonabee
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string[] plageIP = new string[255];
+            string[] plageIP = new string[254];
+            string[] sousPartiesIP;
+            //par default 192.268.1.1/24
+            string localIP = "192.168.42.1";
+            
+            ////adresse du poste
+            //IPHostEntry host;
+            //host = Dns.GetHostEntry(Dns.GetHostName());
+            //foreach (IPAddress ip in host.AddressList)
+            //{
+            //    if (ip.AddressFamily.ToString() == "InterNetwork")
+            //    {
+            //        localIP = ip.ToString();
+            //    }
+            //}
+
+            sousPartiesIP = localIP.Split('.');
             for (int i = 1; i < 254; i++)
             {
-                plageIP[i] = "192.168.42." + Convert.ToString(i);
+                plageIP[i] = sousPartiesIP[0]+'.'+sousPartiesIP[1]+'.'+sousPartiesIP[2]+'.'+Convert.ToString(i);
             }
-            //args[0] = textBox1.Text;
+
             trouverBeeNet(plageIP);
+
+            List<BeeNet> lesBeeNet = BeeNet.getlistBeeNets();
+            for (int i = 0; i < lesBeeNet.Count(); i++)
+            {
+                Console.WriteLine(lesBeeNet[i].getIp());
+                Console.WriteLine(lesBeeNet[i].getNom());
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -86,7 +110,7 @@ namespace AppletConsoMonabee
         {
             if (plageIP.Length == 0)
                 throw new ArgumentException ("Pas d'IP");
-            for (int i = 1; i < plageIP.Count() - 1; i++)
+            for (int i = 1; i < plageIP.Count(); i++)
             {
                 string who = plageIP[i];
                 AutoResetEvent waiter = new AutoResetEvent (false);
@@ -100,28 +124,17 @@ namespace AppletConsoMonabee
                 // Create a buffer of 32 bytes of data to be transmitted. 
                 string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
                 byte[] buffer = Encoding.ASCII.GetBytes (data);
-
-                // Wait 1 seconds for a reply. 
                 int timeout = 100;
 
-                // Set options for transmission: 
-                // The data can go through 64 gateways or routers 
-                // before it is destroyed, and the data packet 
-                // cannot be fragmented.
+                //Ttl, DontFragment
                 PingOptions options = new PingOptions (64, true);
-
-                //Console.WriteLine ("Ttl: {0}", options.Ttl);
-                //Console.WriteLine ("Ne pas fragmenter: {0}", options.DontFragment);
 
                 // Send the ping asynchronously. 
                 // Use the waiter as the user token. 
                 // When the callback completes, it can wake up this thread.
                 pingSender.SendAsync(who, timeout, buffer, options, waiter);
 
-                // Prevent this example application from ending. 
-                // A real application should do something useful 
-                // when possible.
-                waiter.WaitOne(100, false);
+                waiter.WaitOne(100, true);
                 Console.WriteLine("Ping " + plageIP[i] + " Lancé.");
             }
         }
@@ -162,15 +175,35 @@ namespace AppletConsoMonabee
             if (reply == null)
                 return;
 
-            //Console.WriteLine ("ping status: {0}", reply.Status);
             if (reply.Status == IPStatus.Success)
             {
-                Console.WriteLine ("Addresse: {0}", reply.Address.ToString ());
-                Console.WriteLine ("Temps : {0}", reply.RoundtripTime);
-                Console.WriteLine(Dns.GetHostEntry(reply.Address));
-                //Console.WriteLine ("Time to live: {0}", reply.Options.Ttl);
-                //Console.WriteLine ("Don't fragment: {0}", reply.Options.DontFragment);
-                //Console.WriteLine ("Buffer size: {0}", reply.Buffer.Length);
+                try{
+                    IPHostEntry hostInfo = Dns.GetHostEntry(reply.Address);
+                    if (hostInfo.HostName.Contains("BeeNet"))
+                    {
+                        BeeNet beeNet = new BeeNet(reply.Address.ToString(), hostInfo.HostName);
+                        Console.WriteLine("BeeNet : " + reply.Address.ToString() + ", " + hostInfo.HostName);
+                        Console.WriteLine("Temps : {0}", reply.RoundtripTime + "ms");
+                    }
+                }
+                catch(SocketException e) 
+               {
+                   //Console.WriteLine("SocketException caught!!!");
+                   //Console.WriteLine("Source : " + e.Source);
+                   //Console.WriteLine("Message : " + e.Message);
+               }
+               catch(ArgumentNullException e)
+               {
+                   Console.WriteLine("ArgumentNullException caught!!!");
+                   Console.WriteLine("Source : " + e.Source);
+                   Console.WriteLine("Message : " + e.Message);
+               }
+               catch(Exception e)
+               {
+                   Console.WriteLine("Exception caught!!!");
+                   Console.WriteLine("Source : " + e.Source);
+                   Console.WriteLine("Message : " + e.Message);
+               }
             }
         }
         #endregion
