@@ -1,0 +1,1168 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"et",
+				"$etatAbonnement_sql〔variable〕"
+			],
+			[
+				"selected",
+				"$selectedComp〔variable〕"
+			],
+			[
+				"E",
+				"Effectuer"
+			],
+			[
+				"sql",
+				"$sqlQuery〔variable〕"
+			],
+			[
+				"Rs",
+				"RsDetails"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"Disq",
+				"Disques"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"font",
+				"font-style: 〔property〕"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"Ser",
+				"Services"
+			],
+			[
+				"Proce",
+				"Processeurs"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"lab",
+				"labels  (variable)"
+			],
+			[
+				"samp",
+				"sampleValues"
+			],
+			[
+				"Occupe",
+				"Occupe"
+			],
+			[
+				"afterF",
+				"afterFind"
+			],
+			[
+				"app",
+				"AppModel  (class)"
+			],
+			[
+				"new",
+				"newcontroller	Creates a new controller"
+			],
+			[
+				"code",
+				"codeIntervenant"
+			],
+			[
+				"bs3-nav",
+				"bs3-navbar	bs3-navbar"
+			],
+			[
+				"bs3-",
+				"bs3-button:primary	bs3-button-primary"
+			],
+			[
+				"bs3-l",
+				"bs3-label:success	bs3-label-success"
+			],
+			[
+				"button",
+				"bs3-button:primary	bs3-button-primary"
+			],
+			[
+				"max",
+				"max-width:   (property)"
+			],
+			[
+				"wi",
+				"width:   (property)"
+			],
+			[
+				"no",
+				"nom"
+			],
+			[
+				"un",
+				"uneRec"
+			],
+			[
+				"unN",
+				"unNbRecouv"
+			],
+			[
+				"unL",
+				"unLibMarque"
+			],
+			[
+				"nb",
+				"nbPannes"
+			],
+			[
+				"f",
+				"for	for"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"P",
+				"Période"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Snippet: bs3-pagination-small"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"perview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previe",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"toggl",
+				"Toggle Comment"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle tba",
+				"View: Toggle Tabs"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"review",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"reveiw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"open files",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"convert t ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"javasci",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"javascrit",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tog",
+				"Toggle Comment"
+			],
+			[
+				"convert to tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"fold",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"convertto tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"con",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert to ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"installer",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"convert ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Block Comment"
+			],
+			[
+				"bracket",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"commet",
+				"Toggle Comment"
+			],
+			[
+				"indent tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"highvis",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"barck",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"view ",
+				"View: Toggle Side Bar"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remve",
+				"Package Control: Remove Channel"
+			],
+			[
+				"syntax c#",
+				"Set Syntax: C#"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"bs3 top",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"synatx ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"bs3-la",
+				"Snippet: bs3-label-warning"
+			],
+			[
+				"cake",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bs3- aler",
+				"Snippet: bs3-alert"
+			],
+			[
+				"bs3-navbar",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"bs3 html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"snippet : bs3",
+				"Snippet: bs3-well-lg"
+			],
+			[
+				"updae",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"omnisharp",
+				"OmniSharpSublime: Navigate To"
+			],
+			[
+				"mardown ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mardon",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mardown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview in b",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"sql b",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"compa",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"Themr: Random theme"
+			],
+			[
+				"package ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"brow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previww",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"chea",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"preview brow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"madown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"mdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mdo",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"thmr",
+				"Themr: List themes"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"thm",
+				"Themr: List themes"
+			],
+			[
+				"theme",
+				"Themr: Next theme"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"thme",
+				"Themr: List themes"
+			],
+			[
+				"them",
+				"Themr: Next theme"
+			],
+			[
+				"bs3 nab",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"css",
+				"Project: Save As"
+			],
+			[
+				"bs3 col",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"bs3j",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"bs3 nav",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"jso",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prin",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet bs3",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"snippet",
+				"Snippet: bs3-navbar-basic"
+			]
+		],
+		"width": 546.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"diffy",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/bastien/E8tim3aOAGA3OTEv",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/macs.cs",
+		"/home/bastien/code/Monabee/stage/Cdc_AppletConso.mdown",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/api.php",
+		"/home/bastien/code/Monabee/Applet/pwrdrain-gadget/PwrDrain.gadget/js/errors.js",
+		"/home/bastien/code/Monabee/REST/api.php",
+		"/home/bastien/code/Monabee/Applet/pwrdrain-gadget/PwrDrain.gadget/js/PwrDrain.js",
+		"/home/bastien/code/Monabee/REST/Rest.inc.php",
+		"/home/bastien/Down/Muhammad Sex Simulator 2015.zip",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/ScanMac.cs",
+		"/home/bastien/.vimrc",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/bin/Debug/AppletConsoMonabee.vshost.exe.manifest",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/bin/Debug/AppletConsoMonabee.vshost.application",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee.sln",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/bin/Debug/AppletConsoMonabee.vshost.exe.config",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/obj/Debug/DesignTimeResolveAssemblyReferences.cache",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/Form1.cs",
+		"/home/bastien/code/Vagrant/Vagrantfile",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/BeeNet.cs",
+		"/home/bastien/.config/sublime-text-3/Packages/User/C#.sublime-settings",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/Commande.cs",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/Revendeur.cs",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/DAOCommande.cs",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/DAORevendeur.cs",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/Passerelle.cs",
+		"/home/bastien/code/Csharp/Visual Studio 2010/Projects/ShopNBag/ShopNBag/Produit.cs",
+		"/home/bastien/code/Monabee/Applet/AppletConsoMonabee/AppletConsoMonabee/App.config",
+		"/home/bastien/code/Monabee/Applet/pingMsdn.cs",
+		"/home/bastien/code/Monabee/kalimoni-backup/histodd.php",
+		"/home/bastien/code/heh",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/Form1.cs",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/Form1.Designer.cs",
+		"/home/bastien/code/Monabee/kalimoni-backup/rapport/chap_header.php",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/obj/x86/Debug/Shutdown Event Handler.csproj.FileListAbsolute.txt",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/bin/Debug/Shutdown Event Handler.vshost.exe.manifest",
+		"/home/bastien/code/Monabee/kalimoni-backup/exploit/dedibox/EasyCharts35/api/help-doc.html",
+		"/home/bastien/code/Monabee/kalimoni-backup/commun/EasyCharts35/api/help-doc.html",
+		"/home/bastien/code/Monabee/kalimoni-backup/Work/EasyCharts35/api/help-doc.html",
+		"/home/bastien/code/Monabee/email_html/emial2.html",
+		"/home/bastien/code/Monabee/email_html/email.html",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/obj/x86/Debug/Shutdown_Event_Handler.Properties.Resources.resources",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/Shutdown Event Handler.csproj",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler/obj/x86/Debug/Shutdown_Event_Handler.Form1.resources",
+		"/home/bastien/code/Monabee/Shutdown Event Handler/Shutdown Event Handler.sln",
+		"/home/bastien/code/Monabee/kalimoni-backup/commun/js/modules/heatmap.js",
+		"/home/bastien/code/Monabee/histodd.php",
+		"/tmp/xa-EcckRq/tdb_system.php",
+		"/home/bastien/Pics/notepad.png",
+		"/home/bastien/Pics/notepad.jpg",
+		"/home/bastien/stage/Cdc_AppletConso2.mdown",
+		"/home/bastien/code/Monabee/kalimoni-backup/histocpu.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/histoalertes.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/historestart.php",
+		"/home/bastien/code/Monabee/Applet/HTTP.au3",
+		"/home/bastien/code/Monabee/kalimoni-backup/style.css",
+		"/home/bastien/code/Monabee/kalimoni-backup/tdb_system.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/tdb_evt.php",
+		"/home/bastien/code/Monabee/notes",
+		"/home/bastien/code/Monabee/kalimoni/tdb_system.php",
+		"/home/bastien/code/Monabee/kalimoni-backup (copier 1)/tdb_system.php",
+		"/home/bastien/code/Monabee/tdb_system.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/tdb_client.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_url.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_superviseur.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_partenaire.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_evt.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_client.php",
+		"/home/bastien/code/Monabee/Prospections/Tutoriel PHP  - DOM Parser-qPjsikmk4PY.mp4",
+		"/home/bastien/code/Monabee/kalimoni-backup/top.php",
+		"/home/bastien/code/Monabee/Prospections/index.php",
+		"/home/bastien/code/Monabee/kalimoni/incident-declare.php",
+		"/home/bastien/code/Monabee/kalimoni/top.php",
+		"/home/bastien/code/Monabee/kalimoni/tdb_client_old.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/commun/js/SMPageCentrale.js",
+		"/home/bastien/code/Monabee/kalimoni/histodd.php",
+		"/home/bastien/code/Monabee/kalimoni/Dispatch/histodd.php",
+		"/home/bastien/code/Monabee/Applet/histodd.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/includes/serveurmonitor.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/index.php",
+		"/home/bastien/code/Monabee/kalimoni-backup/commun/kalimoni.asp",
+		"/tmp/colors_light_blue_amber.xml",
+		"/tmp/spirit.cs",
+		"/tmp/tdb_system.php",
+		"/home/bastien/code/Monabee/kalimoni/includes/serveurmonitor.php",
+		"/home/bastien/code/Monabee/kalimoni/js/chartsjs",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/tdb_system.php",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/maintenance.php",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/menu.php",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/includes/serveurmonitor.php",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/index.php",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/exploit/check_3_20080116.log",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/exploit/module surveillance.rar",
+		"/home/bastien/code/Monabee/kalimoni/serveurmonitor-int/exploit/perfhttp.sql",
+		"/home/bastien/Down/wwwroot.zip",
+		"/tmp/netextender/netextender.install",
+		"/tmp/netextender/PKGBUILD",
+		"/home/bastien/Down/SonicOS_2.5_VPN_Interop_between_SonicWALL_and_OpensWAN_PSK_VPN.pdf",
+		"/home/bastien/code/Monabee/Applet/ExempleWmi.cs",
+		"/home/bastien/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Nantes.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_LaRochelle.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Grenoble.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Avignon.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Lyon.html",
+		"/home/bastien/code/Monabee/Prospections/Erreures/index.php",
+		"/home/bastien/code/Monabee/Prospections/Erreures/Prospections_Lyon.html",
+		"/home/bastien/code/Monabee/email.html",
+		"/home/bastien/code/Monabee/Prospections/Resultats.csv",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Strasbourg.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Auxerre.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Annecy.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Agen.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Amiens_Resultats.csv",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Paris.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Paris_Résultats.csv",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Angouleme.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_BriveLaGaillarde.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Bayonne.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Pau.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Bordeau.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Toulouse.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Perpignan.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Montpellier.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Cannes.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Valence.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_ClemontFerrand.html",
+		"/home/bastien/code/Monabee/Prospections/Prospections_Limoges.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/bastien/code/SLAM/ContexteGSB-V1.2/PPE/02-ApplicationFrais/Ressources/GSB_Appli/appliFrais",
+			"/home/bastien/www/cockpit",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"}",
+			"S",
+			"MD_DMesure",
+			"MJ_DMesure",
+			"\"selected\"",
+			"$listCP[$i][\"selected\"]",
+			"SelectedComp",
+			"Error()",
+			"OpenDetails",
+			"[\"mesures\"]",
+			"$listCP[$i][\"mesures\"]",
+			"$listCP[$i][\"selected\"]",
+			"subtitle",
+			"Change",
+			"ChangeCP",
+			"height: 200,",
+			"height:",
+			"height",
+			"subtitle",
+			"title",
+			"275",
+			"Highcharts.setOptions({",
+			"\n										distance: -30,\n										useHtml: true,\n										format: '<b>{point.name}</b>',\n										style: {\n											color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'\n										",
+			"275",
+			"colors: [\"#6396bb\", \"#386491\"]",
+			"200",
+			"distance",
+			"><",
+			"<param",
+			"colors:[\"#03A9F4\", \"#0288D1\", \"#B3E5FC\", \"#FFC107\", \"#212121\", \"#727272\", \"#FFFFFF\", \"#B6B6B6\"]",
+			"colors: [\"#6396bb\", \"#669abe\", \"#386491\", \"#17374e\"]",
+			"colors",
+			"color",
+			"EEEEEEE",
+			"FFFFFF",
+			"�",
+			"verteck",
+			"electr",
+			"é",
+			"\"",
+			"planete",
+			"alcone",
+			"vincent",
+			"col",
+			"moz",
+			"num",
+			"echo \"",
+			"include",
+			"visiteur",
+			"bastien",
+			"pontet",
+			"113.160.154.47",
+			"kelsey",
+			"[",
+			">from=<",
+			"] <",
+			"]; from=<",
+			"] [",
+			"unknown[",
+			"@pontet.eu> to=<mike24@outlook.it>",
+			"30 ",
+			"Jul ",
+			": 504 5.5.2",
+			": Helo command rejected: need fully-qualified hostname; ",
+			" proto=ESMTP helo=",
+			" proto=ESMTP helo=<vztkbrhdrb>",
+			" proto=ESMTP helo=<vztkbrhdrb>\n",
+			": 450 4.7.1 Client host rejected: cannot find your hostname,",
+			"mail postfix/submission/smtpd",
+			"NOQUEUE: reject: RCPT",
+			"Jul 30 mail postfix/submission/smtpd[20847]: NOQUEUE: reject: RCPT",
+			"Jul 30 14:16:18 mail postfix/submission/smtpd[20847]: NOQUEUE: reject: RCPT",
+			"hr",
+			"DFAAAA",
+			"D46A6A",
+			".navbar",
+			"color: #",
+			"46054",
+			"ad5555",
+			".lead",
+			"#sec",
+			".lead",
+			"#4C06AB",
+			"lead",
+			"$_SERVER['DOCUMENT_ROOT']",
+			"griffith.blog",
+			"\"",
+			"<div id='allDescription'>",
+			"insert",
+			"bienvenue ",
+			"article",
+			"> ",
+			";",
+			"height: 75px;",
+			"padding-bo",
+			"border:3px DarkBlue groove;",
+			"margin-right: 50px;",
+			"\";",
+			"echo \"",
+			"echo\"",
+			"banner",
+			"table banner",
+			"table",
+			"banner",
+			"m2l",
+			"grant",
+			"create user",
+			"grant",
+			"create user",
+			"$db_login",
+			"$username"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"height: 220,",
+			"enabled: false\n							/*distance: -30,\n							useHtml: true,\n							format: '<b>{point.name}</b>',\n							style: {\n								color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'\n							*/",
+			"colors: [\"#386491\", \"#6396bb\"]",
+			">\n<",
+			"<param",
+			"<param\n",
+			"colors: [\"#6396bb\", \"#386491\", \"#17374e\"]",
+			"colors:[\"#03A9F4\", \"#0288D1\", \"#B3E5FC\", \"#FFC107\", \"#212121\", \"#727272\", \"#FFFFFF\", \"#B6B6B6\"]",
+			"EEEEEE",
+			"e",
+			"",
+			"numCherché",
+			" ",
+			"",
+			"B67474",
+			"DFAAAA",
+			"FFAAAA",
+			"AA3939",
+			"#sem",
+			"#945151",
+			"'",
+			"",
+			" ",
+			"\";\"",
+			"height: 55px;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"output.git-pull":
+	{
+		"height": 92.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"project": "AppletMonabee.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"ScanMac.cs"
+			],
+			[
+				"histo",
+				"kalimoni-backup/histodd.php"
+			],
+			[
+				"tdb_sys",
+				"kalimoni-backup/tdb_system.php"
+			],
+			[
+				"tdb",
+				"tdb_system.php"
+			],
+			[
+				"hi",
+				"histodd.php"
+			],
+			[
+				"index.",
+				"Prospections/index.php"
+			],
+			[
+				"top",
+				"kalimoni-backup/top.php"
+			],
+			[
+				"hid",
+				"histodd.php"
+			],
+			[
+				"histodd",
+				"histodd.php"
+			],
+			[
+				"notes",
+				"notes"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 140.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

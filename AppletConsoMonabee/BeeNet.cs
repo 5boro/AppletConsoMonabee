@@ -8,27 +8,20 @@ namespace AppletConsoMonabee
 {
     class BeeNet
     {
-    	string ip;
-    	string nom;
+        public string ip { get; set; }
+        public string nom { get; set; }
+        public string mac { get; set; }
+
         static List<BeeNet> lesBeeNets = new List<BeeNet>();
 
-    	public BeeNet(string ipBeeNet, string nomBeeNet){
+    	public BeeNet(string ipBeeNet, string nomBeeNet, string macBeeNet){
     		ip=ipBeeNet;
     		nom=nomBeeNet;
+            mac = macBeeNet;
     	}
 
         public void ajouterBeeNet(){
             lesBeeNets.Add(this);
-        }
-
-        public string getNom()
-        {
-            return nom;
-        }
-
-        public string getIp()
-        {
-            return ip;
         }
 
         public static List<BeeNet> getlistBeeNets()

@@ -1,7 +1,6 @@
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\AppletConsoMonabee.exe.config
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\AppletConsoMonabee.exe
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\AppletConsoMonabee.pdb
-\\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.Form1.resources
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.Properties.Resources.resources
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.csproj.GenerateResource.Cache
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.exe
@@ -10,4 +9,7 @@
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\AppletConsoMonabee.application
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.exe.manifest
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.application
+\\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\RestSharp.dll
+\\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\bin\Debug\RestSharp.xml
+\\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.AppletConsoMonabee.resources
 \\VBOXSVR\code\Monabee\Applet\AppletConsoMonabee\AppletConsoMonabee\obj\Debug\AppletConsoMonabee.csprojResolveAssemblyReference.cache
